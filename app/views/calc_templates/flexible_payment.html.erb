@@ -1,0 +1,3 @@
+<p>
+  A <%= @year %> year loan of <%= @principal%>, with an annual interest rate of <%= number_to_percentage(@apr, precision: 2) %>, requires a monthly payment of <%= number_to_currency(@payment)%>.
+</p>
